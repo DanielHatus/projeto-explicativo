@@ -8,6 +8,10 @@
     font-family:"title-special" ;
     src: url("fontes-usadas/Decaydence.otf") format("opentype");
 }
+@font-face {
+    font-family:"num" ;
+    src: url("fontes-usadas/Numero\ 10\ Clean.ttf") format("truetype");
+}
 :root{
     --fonte-titulo:"title-special";
     --fonte-subtitulo:"special";
@@ -17,19 +21,25 @@
     --verde-azulado-claro:#A9E2B2;
     --cinza-esverdeado:#85AD8B;
 }
+p{
+    text-align:justify;
+    font:normal lighter 19px "Arial","Times New Roman","sans-serif";
+    line-height:25px;
+}
+
 body{
     background-color:black;
-    overflow:hidden;
+    overflow-x:hidden;
     margin:0px;
 }
 header{
     background-color:black;
     color:white;
-    border:4px solid rgb(18, 218, 18);
-    width:98vw;
+    border:3px solid rgb(18, 218, 18);
+    width:96.7vw;
     height:auto;
-    padding:10px;
-    overflow:hidden;
+    padding:8px;
+    overflow-x:hidden;
     margin-left:0px;
     margin-bottom:0px;
     border-radius:10px;
@@ -39,6 +49,13 @@ header{
     flex-flow: row nowrap;
     justify-content:flex-start;
 }
+picture{
+    display:flex;
+    justify-content:center;
+    flex-flow:row nowrap;
+    overflow-x:hidden;
+}
+
 .link{
   margin-right:10px;
 }
@@ -70,7 +87,7 @@ main{
     border-radius:5px;
     height:auto;
     margin:auto;
-    width:75vw;
+    width:85vw;
     border:3px solid black;
     outline:3px solid var(--verde-neon);
 
@@ -87,6 +104,11 @@ article>h2{
 }
 #dicas{
     background-color:white;
-    width:75vw;
+    width:85vw;
     height:auto;
+}
+.num{
+    font-family:"num";
+    font-size:28px;
+    color:green;
 }
