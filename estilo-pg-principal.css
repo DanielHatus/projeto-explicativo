@@ -113,6 +113,7 @@ main{
     width:85vw;
     border:3px solid black;
     outline:3px solid var(--verde-neon);
+    overflow-x:hidden;
 }
 article>h2,article>div>h2{
     color:var(--verde-neon-escuro);
@@ -167,4 +168,32 @@ position:absolute;
     background-color:white;
     width:85vw;
     height:auto;
+}
+.center-img{
+    display:flex;
+    align-items:center;
+    flex-direction:column;  
+}
+footer{
+    width:99.5%;
+    max-width:99.5%;
+    height:10vh;
+    background-color:black;
+    border:3px solid var(--verde-neon);
+    border-radius:5px;
+    box-sizing:border-box;
+    margin:auto;overflow:hidden;
+    
+}
+footer>p{
+    color:var(--verde-neon-escuro);
+    text-align:center;
+    font-family:var(--fonte-titulo);
+}
+footer>p>a{
+    color:var(--verde-neon-escuro);
+    text-decoration:none;
+}
+footer>p>a:hover{
+    text-decoration:underline;
 }
