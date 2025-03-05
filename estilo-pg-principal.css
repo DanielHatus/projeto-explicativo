@@ -12,6 +12,11 @@
     font-family:"num" ;
     src: url("fontes-usadas/Numero\ 10\ Clean.ttf") format("truetype");
 }
+@media(max-width:742px){
+    header{
+    padding:59px !important;
+    }
+}
 html{
     font-size:19px;
 }
@@ -89,16 +94,16 @@ nav{
     
 }
 #img-animation{
-    width:95vw;
-    max-width:95vw;    
+    width:98vw;
+    max-width:98vw;    
     height:28vh;                
     margin-top:-50px;
 }
 #img-animation-2{
-    width:10vw;
-    max-width:10vw;
+    width:9vw;
+    max-width:9vw;
     height:10vh;
-    margin-top:-11px;
+    margin-top:-12px;
 }
 #container-filho-header{
     width:100%;
@@ -157,19 +162,12 @@ article>h2,article>div>h2{
     flex-direction:row;
     flex-wrap: nowrap;
 }
-#span-num-1{
+#sp1,#sp2{
     margin-top:15px;
-    position:absolute;
 }
-#span-num-2{
-margin-top:15px;
-position:absolute;
-}
-#h2-dicas-1{
-    margin-left:40px;
-}
-#h2-dicas-2{
-    margin-left:40px;
+
+#h2-dicas-1,#h2-dicas-2{
+    margin-left:15px;
 }
 .list-dicas{
     font-family:"num";
@@ -185,6 +183,12 @@ position:absolute;
     background-color:white;
     width:85vw;
     height:auto;
+}
+mark{
+    background-color:var(--verde-neon-escuro);
+    width:auto;
+    height:auto;
+
 }
 .center-img{
     display:flex;
