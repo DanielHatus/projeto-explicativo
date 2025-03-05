@@ -94,7 +94,22 @@ nav{
     height:28vh;                
     margin-top:-50px;
 }
-header>div>h1{
+#img-animation-2{
+    width:10vw;
+    max-width:10vw;
+    height:10vh;
+    margin-top:-11px;
+}
+#container-filho-header{
+    width:100%;
+     height:auto;
+     display:flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+
+
+}
+header>#container-pai-header>#container-filho-header>h1{
     font:normal 500 30px var(--fonte-titulo),"sans-serif";
     color:var(--verde-neon-escuro);
     text-align:center;
@@ -103,7 +118,9 @@ header>div>h1{
     0px 0px 9px green,
     0px 0px 12px green;
     margin-bottom:0px;
-    margin-top:-1px;  
+    margin-top:-1px;
+    margin-right:0px;
+    margin-left:0px;  
 }
 main{
     background-color:white;
