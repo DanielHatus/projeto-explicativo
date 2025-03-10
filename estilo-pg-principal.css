@@ -226,3 +226,19 @@ footer>p{
     text-shadow:0px 0px 3px rgb(22, 121, 174) ,
     0px 0px 5px rgb(22, 121, 174);
 }
+p::selection{
+    background-color:var(--verde-neon-escuro);
+    color:black;
+}
+h1::selection{
+    background-color:var(--verde-neon-escuro);
+    color:black;
+}
+#select-html::selection{
+    background-color:orangered;
+    color:black;
+}
+#select-css::selection{
+    background-color:blue;
+    color:white;
+}
